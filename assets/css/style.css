@@ -1,0 +1,54 @@
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1760px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+header {
+    height: 100vh;
+    background: url("../images/BG Hero.png") center no-repeat;
+    background-size: cover;
+}
+
+header:after {
+    content: url("../images/MG.png");
+    position: absolute;
+    top: 464px;
+    left: 0;
+}
+
+header:before {
+    content: url("../images/VG.png");
+    position: absolute;
+    top: 1168px;
+    left: 0;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav__tab {
+    margin-left: 40px;
+}
+
+.nav__tab:first-child {
+    margin-left: 0;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
