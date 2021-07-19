@@ -133,6 +133,7 @@ header:after {
     letter-spacing: 6px;
     text-transform: uppercase;
     margin-bottom: 30px;
+    padding-left: 100px;
     position: relative;
 }
 
@@ -141,7 +142,10 @@ header:after {
     position: absolute;
     width: 72px;
     height: 2px;
-    color:#FBD784;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: #FBD784;
 }
 
 .intro__title{
