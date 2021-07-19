@@ -6,7 +6,7 @@ a {
 
 .container {
     max-width: 1760px;
-    margin: 0 auto 200px;
+    margin: 0 auto;
     padding: 0 80px;
     color: #fff;  
 }
@@ -36,7 +36,8 @@ header:before {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 64px;   
+    padding-top: 64px;  
+    margin-bottom: 200px; 
 }
 
 .logo{
