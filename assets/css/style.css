@@ -1,4 +1,3 @@
-
 a {
     color: #fff;
     text-decoration: none;
@@ -8,36 +7,47 @@ a {
     max-width: 1760px;
     margin: 0 auto;
     padding: 0 80px;
-    color: #fff;  
+    color: #fff;
 }
 
 header {
     height: 100vh;
+    width: 100%;
     background-image: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 31.06%, #0B1D26 108.93%),url("../images/HG.png");
     background-size: cover;
-}
-
-header:after {
-    content: url("../images/MG.png");
-    position: absolute;
-    top: 464px;
-    left: 0;
-    width:100%;
+    background-repeat: no-repeat;
 }
 
 header:before {
-    content: url("../images/VG.png");
+    content: '';
+    background-image: url(../images/MG.png);
     position: absolute;
-    top: 1168px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 465px;
     left: 0;
+    height: 95%;
+    width: 100%;
+}
+
+header:after {
+    content: '';
+    background-image: url(../images/VG.png);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 750px;
+    left: 0;
+    height: 70%;
+    width: 100%;
 }
 
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 64px;  
-    margin-bottom: 200px; 
+    padding-top: 64px;
+    margin-bottom: 200px;
 }
 
 .logo{
@@ -193,4 +203,19 @@ header:before {
 .slider__item.active{
     border-right: 3px solid rgba(255, 255, 255, 1);
 }
-   
+
+.main {
+    position: relative;
+    top: 400px;
+    background: rgba(11, 29, 38, 1);
+}
+
+.main:after {
+    content: "";
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    top: -200px;
+    position: absolute;
+}
