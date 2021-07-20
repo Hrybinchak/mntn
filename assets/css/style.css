@@ -223,3 +223,165 @@ header:after {
     top: -200px;
     position: absolute;
 }
+
+.main__inner{
+    display: flex; 
+    padding: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.read__more{
+    display: flex;
+    flex-direction: row;
+}
+
+.num{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 240px;
+    line-height: 240px;
+    color: #FFFFFF;
+    opacity: 0.1;
+    position: absolute;
+}
+
+.main__info__filling{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 120px;
+    height: 439px;
+    width: 630px;
+    position: relative;
+    top:100px;
+   
+}
+
+.main__suptitle{
+    width: 172px;
+    height: 22px;
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FBD784;
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 100px;
+}
+
+.main__suptitle::before{
+    content: "";
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: #FBD784;
+}
+
+.main__title{
+    width: 555px;
+    height: 154px;
+    font-family: Chronicle Display;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.info{
+    width: 632px;
+    height: 160px;
+    font-family: Gilroy;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+
+.main__navigation{
+    width: 87px;
+    height: 22px;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBD784;
+}
+
+.hiker{
+    width: 566px;
+    height: 720px;
+    position: relative;
+    top: 100px;
+}
+
+.main__suptitle__second{
+    width: 258px;
+    height: 22px;
+    font-family: Gilroy;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FBD784;
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 100px;
+}
+
+.main__suptitle__second::before{
+    content: "";
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: #FBD784;
+}
+
+.hiking_gear{
+    width: 566px;
+    height: 720px;
+    position: relative;
+    top: 100px;
+}
+
+.main__suptitle__third{
+    width: 358px;
+    height: 22px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FBD784;
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 100px;
+}
+
+.main__suptitle__third::before{
+    content: "";
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: #FBD784;
+}
+
+.timing{
+    width: 566px;
+    height: 720px;
+    position: relative;
+    top: 100px;
+}
