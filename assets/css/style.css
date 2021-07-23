@@ -226,8 +226,8 @@ header:after {
 
 .main__inner{
     display: flex; 
-    padding: 120px;
-    justify-content: space-between;
+    padding-top: 120px;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -255,7 +255,6 @@ header:after {
     width: 630px;
     position: relative;
     top:100px;
-   
 }
 
 .main__suptitle{
@@ -306,20 +305,14 @@ header:after {
 }
 
 .main__navigation{
-    width: 87px;
-    height: 22px;
+   margin-right: 16px;
     font-family: Gilroy;
     font-size: 18px;
     line-height: 22px;
     color: #FBD784;
 }
 
-.hiker{
-    width: 566px;
-    height: 720px;
-    position: relative;
-    top: 100px;
-}
+
 
 .main__suptitle__second{
     width: 258px;
@@ -344,13 +337,6 @@ header:after {
     left: 0;
     transform: translateY(-50%);
     background: #FBD784;
-}
-
-.hiking_gear{
-    width: 566px;
-    height: 720px;
-    position: relative;
-    top: 100px;
 }
 
 .main__suptitle__third{
@@ -379,9 +365,81 @@ header:after {
     background: #FBD784;
 }
 
-.timing{
-    width: 566px;
-    height: 720px;
+.footer{
     position: relative;
-    top: 100px;
+    top: 400px;
+    background: rgba(11, 29, 38, 1);
+
+}
+
+.width__footer{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    display: flex;
+}
+
+.first__part{
+    flex-grow: 5;
+    margin-left: 110px;
+}
+
+.second__part{
+    flex-grow: 5;
+}
+
+.footer__navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo__footer{
+    font-family: 'Chronicle Display';
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+.footer__text{
+    width: 303px;
+    height: 64px;
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 122px;
+}
+
+.copy{
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-bottom: 10px;
+}
+
+.footer__title{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FBD784;
+    margin-bottom: 25px;
+}
+
+
+.footer__text__navigation{
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.more__on__block{
+    padding-left: 40px;
 }
